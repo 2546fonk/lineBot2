@@ -23,8 +23,8 @@ def callback():
     user = decoded["events"][0]['replyToken']
     userText = decoded["events"][0]['message']['text']
     #sendText(user,userText)
-    retif (userText == 'สวัสดี') :
-        print('ดีจ้าาา')
+    retif(userText == 'สวัสดี') :
+          sendText(user'ดีจ้าาา')
     elif (userText == 'ทำไรอยู่') :
           sendText(user,'นั่ง')
     else :
